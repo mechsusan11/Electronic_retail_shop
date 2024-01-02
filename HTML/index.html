@@ -32,10 +32,10 @@
             <a href="#products">Products</a>
           </li>
           <li class="nav-li">
-            <a href="Contact.html" target="_blank">Contact</a>
+            <a href="./Contact.html" target="_blank">Contact</a>
           </li>
           <li class="nav-li">
-            <a href="About.html" target="_blank">About</a>
+            <a href="./About.html" target="_blank">About</a>
           </li>
         </div>
       </nav>
@@ -110,7 +110,7 @@
             <p class="card-text text-center">
               <a
                 style="text-decoration: none"
-                href="Foldables.html"
+                href="./Foldables.html"
                 target="_blank"
                 >Foldables</a
               >
@@ -122,7 +122,7 @@
           <img src="../images/head.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <p class="card-text text-center">
-              <a href="Headphone.html" style="text-decoration: none"
+              <a href="./Headphone.html" style="text-decoration: none"
                 >Head Phones</a
               >
             </p>
@@ -133,7 +133,7 @@
           <img src="../images/laptop.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <p class="card-text text-center">
-              <a href="Laptop.html" style="text-decoration: none">Laptop</a>
+              <a href="./Laptop.html" style="text-decoration: none">Laptop</a>
             </p>
           </div>
         </div>
@@ -147,7 +147,7 @@
           />
           <div class="card-body">
             <p class="card-text text-center">
-              <a href="SmartTv.html" style="text-decoration: none">Smart TVs</a>
+              <a href="./SmartTv.html" style="text-decoration: none">Smart TVs</a>
             </p>
           </div>
         </div>
@@ -156,7 +156,7 @@
           <img src="../images/sp.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <p class="card-text text-center">
-              <a href="Smartphone.html" style="text-decoration: none"
+              <a href="./Smartphone.html" style="text-decoration: none"
                 >Smartphones</a
               >
             </p>
@@ -167,7 +167,7 @@
           <img src="../images/tab.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <p class="card-text text-center">
-              <a href="Tablet.html" style="text-decoration: none">Tablets</a>
+              <a href="./Tablet.html" style="text-decoration: none">Tablets</a>
             </p>
           </div>
         </div>
@@ -223,7 +223,7 @@
         (entries) => {
           console.log(entries);
           entries.forEach((item) => {
-            item.target.classList.toggle("show", item.isIntersecting);
+            item.target.classList.add("show", item.isIntersecting);
           });
         },
         {
